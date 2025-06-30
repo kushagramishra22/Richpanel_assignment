@@ -1,0 +1,74 @@
+.auth-container {
+  max-width: 460px;
+  margin: 80px auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.auth-logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.5rem; /* Reduced bottom spacing */
+}
+
+.auth-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.25rem; /* Reduced to tighten layout */
+  margin-top: 0;          /* Remove extra space above if any */
+}
+
+.auth-subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 1.5rem; /* Space before input fields */
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem; 
+  margin-top: 0.5rem;        /* Tighter spacing */
+  color: #222;                   /* Slightly deeper color for contrast */
+  font-size: 32px;               /* Nice, readable size */
+  font-weight: 600;              /* Slight boldness for visibility */
+  letter-spacing: 0.5px;         /* Smooth letter spacing */
+  font-family: "SFProDisplay-Bold, Helvetica, Arial, sans-serif";
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family:"SFProDisplay-Regular, Helvetica, Arial, sans-serif";
+}
+.auth-container button {
+  width: 100%;
+  padding: 12px;
+  background: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.auth-container .error {
+  color: red;
+  margin-top: 10px;
+}
+.auth-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen */
+  background: rgb(2, 40, 76); /* Optional blue background */
+}
+* {
+  box-sizing: border-box;
+}

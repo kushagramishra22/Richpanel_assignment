@@ -1,0 +1,74 @@
+/* Set full screen height and background */
+.fb-container {
+  background-color: rgb(2, 40, 76); /* Facebook Blue */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card box */
+.fb-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Heading */
+.fb-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+/* Info text */
+.fb-label {
+  font-size: 16px;
+  color: #444;
+  margin: 12px 0;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.fb-connect-btn,
+.fb-delete-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 24px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.fb-connect-btn {
+  background-color: rgb(2, 40, 76);
+}
+
+.fb-connect-btn:hover:not(:disabled) {
+  background-color: rgb(1, 30, 60);
+  transform: translateY(-1px);
+}
+
+.fb-connect-btn:disabled {
+  background-color: #a6c7f7;
+  cursor: not-allowed;
+}
+
+.fb-delete-btn {
+  background-color: #e53935; /* Red */
+}
+
+.fb-delete-btn:hover {
+  background-color: #c62828;
+  transform: translateY(-1px);
+}
