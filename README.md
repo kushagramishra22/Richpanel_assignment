@@ -76,9 +76,12 @@ npm start
 - Facebook Page Connect UI ![image](https://github.com/user-attachments/assets/09fc9890-86ea-4fb0-af53-7914f75ab537) ![image](https://github.com/user-attachments/assets/e2f5e589-ca17-4ea3-b85e-4bafe32bffbf)
 
 
-- Messenger Inbox UI 
-- Customer Profile with Picture
-- Reply to Customers
+- Messenger Inbox UI ![image](https://github.com/user-attachments/assets/b94936d0-6632-46d6-9411-b449a4f8469d)
+
+- Customer Profile with Picture ![image](https://github.com/user-attachments/assets/e02f13e8-bae9-49f0-bd85-98b65e8c7e46)
+
+- Reply to Customers ![image](https://github.com/user-attachments/assets/74dd1a95-5831-456d-a709-9cb47b3f2c8e)
+
 
 ---
 
